@@ -7,6 +7,12 @@
   },
   {
     "id": 2,
+    "nombre": "Ares",
+    "tipo": "Perro",
+    "raza": "Pitbull"
+  },
+  {
+    "id": 3,
     "nombre": "Felix",
     "tipo": "Gato",
     "raza": "Persa"
@@ -15,12 +21,102 @@
     "id": 4,
     "nombre": "Apolo",
     "tipo": "Perro",
-    "raza": "Quiltro"
+    "raza": "Quitro"
   },
   {
     "id": 5,
-    "nombre": "Chispita",
+    "nombre": "Juan",
     "tipo": "Perro",
-    "raza": "Poodle"
+    "raza": "Quitro"
+  },
+  {
+    "id": 6,
+    "nombre": "Luna",
+    "tipo": "Gato",
+    "raza": "Siamés"
+  },
+  {
+    "id": 7,
+    "nombre": "Zeus",
+    "tipo": "Perro",
+    "raza": "Pastor Alemán"
+  },
+  {
+    "id": 8,
+    "nombre": "Milo",
+    "tipo": "Perro",
+    "raza": "Golden Retriever"
+  },
+  {
+    "id": 9,
+    "nombre": "Nina",
+    "tipo": "Gato",
+    "raza": "Angora"
+  },
+  {
+    "id": 10,
+    "nombre": "Rocky",
+    "tipo": "Perro",
+    "raza": "Bulldog"
+  },
+  {
+    "id": 11,
+    "nombre": "Simba",
+    "tipo": "Gato",
+    "raza": "Bengalí"
+  },
+  {
+    "id": 12,
+    "nombre": "Thor",
+    "tipo": "Perro",
+    "raza": "Rottweiler"
+  },
+  {
+    "id": 13,
+    "nombre": "Tom",
+    "tipo": "Gato",
+    "raza": "Europeo"
+  },
+  {
+    "id": 14,
+    "nombre": "Bruno",
+    "tipo": "Perro",
+    "raza": "Beagle"
+  },
+  {
+    "id": 15,
+    "nombre": "Mía",
+    "tipo": "Gato",
+    "raza": "Maine Coon"
+  },
+  {
+    "id": 16,
+    "nombre": "Duke",
+    "tipo": "Perro",
+    "raza": "Dálmata"
+  },
+  {
+    "id": 17,
+    "nombre": "Kira",
+    "tipo": "Gato",
+    "raza": "Esfinge"
+  },
+  {
+    "id": 18,
+    "nombre": "Chester",
+    "tipo": "Perro",
+    "raza": "Cocker Spaniel"
+  },
+  {
+    "id": 19,
+    "nombre": "Toby",
+    "tipo": "Gato",
+    "raza": "Americano de Pelo Corto"
+  },
+  {
+    "id": 20,
+    "nombre": "Oliver",
+    "tipo": "Gato",
+    "raza": "Ragdoll"
   }
 ]
