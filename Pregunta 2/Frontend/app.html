@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Listar Mascotas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Lista de Mascotas</h1>
+    <h3>Filtros</h3>
+    <input id="filtroTipo" placeholder="Tipo (Perro, Gato)">
+    <input id="filtroRaza" placeholder="Raza">
+    <button onclick="cargarMascotas()">Buscar</button>
+    
+    <h3>Mascotas Registradas</h3>
+    <li><a href="html/agregar.html">Agregar Mascota</a></li>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Tipo</th>
+                <th>Raza</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tablaMascotas"></tbody>
+    </table>
+    <script src="src/app.js"></script>
+</body>
+</html>

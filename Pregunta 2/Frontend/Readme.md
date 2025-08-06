@@ -1,0 +1,1 @@
+Ejecutar abriendo app.html en el navegador (Es necesario haber iniciado el backend primero).

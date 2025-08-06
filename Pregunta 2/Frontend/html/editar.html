@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Mascota</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Editar Mascota</h1>
+    <a href="../app.html">← Volver al listado</a>
+
+    <input id="editId" type="hidden">
+    <input id="editNombre" placeholder="Nombre">
+    <input id="editTipo" placeholder="Tipo">
+    <input id="editRaza" placeholder="Raza">
+    <button onclick="actualizarMascota()">Actualizar</button>
+
+    <script src="../src/app.js"></script>
+    <script>
+        // Obtener datos de URL
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id');
+        const nombre = params.get('nombre');
+        const tipo = params.get('tipo');
+        const raza = params.get('raza');
+
+        document.getElementById('editId').value = id;
+        document.getElementById('editNombre').value = nombre;
+        document.getElementById('editTipo').value = tipo;
+        document.getElementById('editRaza').value = raza;
+    </script>
+</body>
+</html>
