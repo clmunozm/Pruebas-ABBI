@@ -42,6 +42,11 @@ export class EditarMascotaComponent implements OnInit {
   actualizarMascota(form: NgForm) {  // Modificar el parámetro
     if (!this.mascota) return;
 
+    if (form.invalid) {
+      alert('Por favor, complete todos los campos.');
+      return;
+    }
+
     this.mascotaService.actualizarMascota(this.id, this.mascota).subscribe({
       next: () => {
         this.router.navigate(['/']); // Redirigir a la lista de mascotas después de actualizar

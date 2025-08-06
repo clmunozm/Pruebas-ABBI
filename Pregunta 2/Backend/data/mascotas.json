@@ -3,7 +3,7 @@
     "id": 1,
     "nombre": "Max",
     "tipo": "Perro",
-    "raza": "Sabueso"
+    "raza": "Labrador"
   },
   {
     "id": 2,
@@ -12,15 +12,15 @@
     "raza": "Persa"
   },
   {
-    "id": 3,
-    "nombre": "Juan",
-    "tipo": "Perro",
-    "raza": "Pitbull"
-  },
-  {
     "id": 4,
     "nombre": "Apolo",
     "tipo": "Perro",
     "raza": "Quiltro"
+  },
+  {
+    "id": 5,
+    "nombre": "Chispita",
+    "tipo": "Perro",
+    "raza": "Poodle"
   }
 ]

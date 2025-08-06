@@ -17,6 +17,14 @@ exports.listarMascotas = (req, res) => {
     res.json(mascotas);
 };
 
+// Obtener mascota por ID
+exports.obtenerMascota = (req, res) => {
+    const mascotas = leerDatos();
+    const mascota = mascotas.find(m => m.id == req.params.id);
+    if (!mascota) return res.status(404).json({ message: 'Mascota no encontrada' });
+    res.json(mascota);
+};
+
 // Agregar mascota
 exports.agregarMascota = (req, res) => {
     const mascotas = leerDatos();

@@ -2,8 +2,8 @@
   <h1>Lista de Mascotas</h1>
   
   <div class="filtros">
-    <input [(ngModel)]="filtroTipo" placeholder="Tipo (Perro, Gato)">
-    <input [(ngModel)]="filtroRaza" placeholder="Raza">
+    <input [(ngModel)]="filtroTipo" placeholder="Tipo (Perro, Gato)" (keyup.enter)="buscar()">
+    <input [(ngModel)]="filtroRaza" placeholder="Raza" (keyup.enter)="buscar()">
     <button (click)="buscar()">Buscar</button>
   </div>
   <div>

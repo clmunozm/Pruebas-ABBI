@@ -19,7 +19,11 @@ export class AgregarMascotaComponent implements OnInit {
 
   // Método para agregar una nueva mascota
   agregarMascota() {
-   this.mascotaService.agregarMascota(this.mascota).subscribe({
+    if (!this.mascota.nombre || !this.mascota.tipo || !this.mascota.raza) {
+      alert('Por favor, complete todos los campos.');
+      return;
+    }
+    this.mascotaService.agregarMascota(this.mascota).subscribe({
       next: (mascota) => {
         this.router.navigate(['/']); // Redirigir a la lista de mascotas después de agregar
       },
