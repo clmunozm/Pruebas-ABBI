@@ -1,0 +1,34 @@
+<div class="container">
+  <h1>Lista de Mascotas</h1>
+  
+  <div class="filtros">
+    <input [(ngModel)]="filtroTipo" placeholder="Tipo (Perro, Gato)">
+    <input [(ngModel)]="filtroRaza" placeholder="Raza">
+    <button (click)="buscar()">Buscar</button>
+  </div>
+  <div>
+    <hr>
+    <button routerLink="/agregar">Agregar Mascota</button>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Tipo</th>
+        <th>Raza</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let mascota of mascotas">
+        <td>{{ mascota.nombre }}</td>
+        <td>{{ mascota.tipo }}</td>
+        <td>{{ mascota.raza }}</td>
+        <td>
+          <button routerLink="/editar/{{ mascota.id }}">Editar</button>
+          <button (click)="eliminarMascota(mascota.id)">Eliminar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

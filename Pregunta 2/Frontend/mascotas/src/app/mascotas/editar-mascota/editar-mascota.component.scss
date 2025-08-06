@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: white;
+}
+
+h1 {
+    color: black;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+}
+
+table {
+    margin-top: 15px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid grey;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}

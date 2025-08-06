@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Agregar Mascota</h1>
+  <a routerLink="/">← Volver al inicio</a>
+
+  <form (ngSubmit)="agregarMascota()">
+    <input [(ngModel)]="mascota.nombre" name="nombre" placeholder="Nombre" required>
+    <input [(ngModel)]="mascota.tipo" name="tipo" placeholder="Tipo" required>
+    <input [(ngModel)]="mascota.raza" name="raza" placeholder="Raza" required>
+    <button type="submit">Agregar</button>
+  </form>
+</div>
